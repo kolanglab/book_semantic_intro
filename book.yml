@@ -1,0 +1,30 @@
+title: "言語処理系の意味解析入門"
+author: "ligarb AI"
+language: "ja"
+ai_generated: true
+bibliography: references.bib
+chapters:
+  - cover: cover.md
+  - introduction.md
+  - part: part-names.md
+    chapters:
+      - name-resolution.md
+  - part: part-types.md
+    chapters:
+      - type-checking.md
+      - type-inference.md
+  - part: part-flow.md
+    chapters:
+      - control-flow.md
+      - data-flow.md
+  - part: part-frontier.md
+    chapters:
+      - abstract-interpretation.md
+      - advanced-analyses.md
+  - appendix:
+    - glossary.md
+
+repository: "https://github.com/kolanglab/book_semantic_intro"
+
+github_review:
+  enabled: true

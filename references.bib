@@ -1,0 +1,220 @@
+% 言語処理系の意味解析入門 参考文献
+% すべて実在する文献です。情報は Web 検索で確認しました。
+
+% ── 教科書 ──────────────────────────────────────────────
+
+@book{aho2006,
+  author    = {Alfred V. Aho and Monica S. Lam and Ravi Sethi and Jeffrey D. Ullman},
+  title     = {Compilers: Principles, Techniques, and Tools},
+  edition   = {2nd},
+  publisher = {Addison-Wesley},
+  year      = {2006},
+  note      = {いわゆる「ドラゴンブック」}
+}
+
+@book{cooper2011,
+  author    = {Keith D. Cooper and Linda Torczon},
+  title     = {Engineering a Compiler},
+  edition   = {2nd},
+  publisher = {Morgan Kaufmann},
+  year      = {2011}
+}
+
+@book{appel1998,
+  author    = {Andrew W. Appel},
+  title     = {Modern Compiler Implementation in ML},
+  publisher = {Cambridge University Press},
+  year      = {1998}
+}
+
+@book{pierce2002,
+  author    = {Benjamin C. Pierce},
+  title     = {Types and Programming Languages},
+  publisher = {MIT Press},
+  year      = {2002}
+}
+
+@book{nielson1999,
+  author    = {Flemming Nielson and Hanne Riis Nielson and Chris Hankin},
+  title     = {Principles of Program Analysis},
+  publisher = {Springer},
+  year      = {1999}
+}
+
+% ── 属性文法・意味解析の基礎 ─────────────────────────────
+
+@article{knuth1968,
+  author  = {Donald E. Knuth},
+  title   = {Semantics of Context-Free Languages},
+  journal = {Mathematical Systems Theory},
+  volume  = {2},
+  number  = {2},
+  pages   = {127--145},
+  year    = {1968},
+  doi     = {10.1007/BF01692511}
+}
+
+% ── 型システム・型推論 ──────────────────────────────────
+
+@article{hindley1969,
+  author  = {J. Roger Hindley},
+  title   = {The Principal Type-Scheme of an Object in Combinatory Logic},
+  journal = {Transactions of the American Mathematical Society},
+  volume  = {146},
+  pages   = {29--60},
+  year    = {1969},
+  doi     = {10.2307/1995158}
+}
+
+@article{milner1978,
+  author  = {Robin Milner},
+  title   = {A Theory of Type Polymorphism in Programming},
+  journal = {Journal of Computer and System Sciences},
+  volume  = {17},
+  number  = {3},
+  pages   = {348--375},
+  year    = {1978},
+  doi     = {10.1016/0022-0000(78)90014-4}
+}
+
+@inproceedings{damas1982,
+  author    = {Luis Damas and Robin Milner},
+  title     = {Principal Type-Schemes for Functional Programs},
+  booktitle = {Proceedings of the 9th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL)},
+  pages     = {207--212},
+  year      = {1982},
+  doi       = {10.1145/582153.582176}
+}
+
+@article{wright1994,
+  author  = {Andrew K. Wright and Matthias Felleisen},
+  title   = {A Syntactic Approach to Type Soundness},
+  journal = {Information and Computation},
+  volume  = {115},
+  number  = {1},
+  pages   = {38--94},
+  year    = {1994},
+  doi     = {10.1006/inco.1994.1093}
+}
+
+% ── データフロー解析・SSA・手続き間解析 ──────────────────
+
+@inproceedings{kildall1973,
+  author    = {Gary A. Kildall},
+  title     = {A Unified Approach to Global Program Optimization},
+  booktitle = {Proceedings of the 1st Annual ACM SIGACT-SIGPLAN Symposium on Principles of Programming Languages (POPL)},
+  pages     = {194--206},
+  year      = {1973},
+  doi       = {10.1145/512927.512945}
+}
+
+@article{cytron1991,
+  author  = {Ron Cytron and Jeanne Ferrante and Barry K. Rosen and Mark N. Wegman and F. Kenneth Zadeck},
+  title   = {Efficiently Computing Static Single Assignment Form and the Control Dependence Graph},
+  journal = {ACM Transactions on Programming Languages and Systems},
+  volume  = {13},
+  number  = {4},
+  pages   = {451--490},
+  year    = {1991},
+  doi     = {10.1145/115372.115320}
+}
+
+@inproceedings{reps1995,
+  author    = {Thomas Reps and Susan Horwitz and Mooly Sagiv},
+  title     = {Precise Interprocedural Dataflow Analysis via Graph Reachability},
+  booktitle = {Proceedings of the 22nd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL)},
+  pages     = {49--61},
+  year      = {1995},
+  doi       = {10.1145/199448.199462}
+}
+
+@inproceedings{steensgaard1996,
+  author    = {Bjarne Steensgaard},
+  title     = {Points-to Analysis in Almost Linear Time},
+  booktitle = {Proceedings of the 23rd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL)},
+  pages     = {32--41},
+  year      = {1996},
+  doi       = {10.1145/237721.237727}
+}
+
+% ── 抽象解釈 ────────────────────────────────────────────
+
+@inproceedings{cousot1977,
+  author    = {Patrick Cousot and Radhia Cousot},
+  title     = {Abstract Interpretation: A Unified Lattice Model for Static Analysis of Programs by Construction or Approximation of Fixpoints},
+  booktitle = {Proceedings of the 4th ACM SIGACT-SIGPLAN Symposium on Principles of Programming Languages (POPL)},
+  pages     = {238--252},
+  year      = {1977},
+  doi       = {10.1145/512950.512973}
+}
+
+% ── 発展的・最先端の手法 ────────────────────────────────
+
+@inproceedings{lucassen1988,
+  author    = {John M. Lucassen and David K. Gifford},
+  title     = {Polymorphic Effect Systems},
+  booktitle = {Proceedings of the 15th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL)},
+  pages     = {47--57},
+  year      = {1988},
+  doi       = {10.1145/73560.73564}
+}
+
+@article{tofte1997,
+  author  = {Mads Tofte and Jean-Pierre Talpin},
+  title   = {Region-Based Memory Management},
+  journal = {Information and Computation},
+  volume  = {132},
+  number  = {2},
+  pages   = {109--176},
+  year    = {1997},
+  doi     = {10.1006/inco.1996.2613}
+}
+
+@inproceedings{rondon2008,
+  author    = {Patrick M. Rondon and Ming Kawaguchi and Ranjit Jhala},
+  title     = {Liquid Types},
+  booktitle = {Proceedings of the 29th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},
+  pages     = {159--169},
+  year      = {2008},
+  doi       = {10.1145/1375581.1375602}
+}
+
+@inproceedings{reynolds2002,
+  author    = {John C. Reynolds},
+  title     = {Separation Logic: A Logic for Shared Mutable Data Structures},
+  booktitle = {Proceedings of the 17th Annual IEEE Symposium on Logic in Computer Science (LICS)},
+  pages     = {55--74},
+  year      = {2002},
+  doi       = {10.1109/LICS.2002.1029817}
+}
+
+@inproceedings{demoura2008,
+  author    = {Leonardo de Moura and Nikolaj Bjørner},
+  title     = {Z3: An Efficient SMT Solver},
+  booktitle = {Tools and Algorithms for the Construction and Analysis of Systems (TACAS), LNCS 4963},
+  pages     = {337--340},
+  publisher = {Springer},
+  year      = {2008},
+  doi       = {10.1007/978-3-540-78800-3_24}
+}
+
+@inproceedings{calcagno2015,
+  author    = {Cristiano Calcagno and Dino Distefano and Jérémy Dubreil and Dominik Gabi and Pieter Hooimeijer and Martino Luca and Peter W. O'Hearn and Irene Papakonstantinou and Jim Purbrick and Dulma Rodriguez},
+  title     = {Moving Fast with Software Verification},
+  booktitle = {NASA Formal Methods (NFM), LNCS 9058},
+  pages     = {3--11},
+  publisher = {Springer},
+  year      = {2015},
+  doi       = {10.1007/978-3-319-17524-9_1}
+}
+
+@article{jung2018,
+  author  = {Ralf Jung and Jacques-Henri Jourdan and Robbert Krebbers and Derek Dreyer},
+  title   = {RustBelt: Securing the Foundations of the Rust Programming Language},
+  journal = {Proceedings of the ACM on Programming Languages},
+  volume  = {2},
+  number  = {POPL},
+  pages   = {66:1--66:34},
+  year    = {2018},
+  doi     = {10.1145/3158154}
+}
