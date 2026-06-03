@@ -24,7 +24,7 @@ chapters:
   - appendix:
     - glossary.md
 
-repository: "https://github.com/kolanglab/book_semantic_intro"
-
 github_review:
   enabled: true
+
+repository: "https://github.com/kolanglab/book_semantic_intro"
