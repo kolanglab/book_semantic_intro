@@ -1,4 +1,5 @@
 title: "言語処理系の意味解析入門"
+description: "AST に対する名前解決・型検査/推論・制御/データフロー解析・抽象解釈を紹介"
 author: "ligarb AI"
 language: "ja"
 ai_generated: true
