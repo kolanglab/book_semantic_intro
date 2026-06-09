@@ -101,6 +101,16 @@ class Unifier
     else false
     end
   end
+
+  # 型エラーのメッセージ用に、型を読みやすい文字列にする
+  def show(t)
+    t = resolve(t)
+    case t
+    when Var  then t.name
+    when Base then t.name.to_s
+    when Fun  then "(#{show(t.arg)} -> #{show(t.ret)})"
+    end
+  end
 end
 ```
 
